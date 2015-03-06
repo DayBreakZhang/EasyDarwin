@@ -1,0 +1,916 @@
+﻿Build started 2015/3/5 11:04:16.
+     1>Project "E:\test\EasyDarwin-master\QTFileLib\QTFileLib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\QTFileLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../ /I../CommonUtilitiesLib/ /I.. /I../APIStubLib /I../RTPMetaInfoLib/ /I../CommonUtilitiesLib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D DSS_USE_API_CALLBACKS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /FI../WinNTSupport/Win32header.h /analyze- /errorReport:prompt QTAtom.cpp QTAtom_dref.cpp QTAtom_elst.cpp QTAtom_hinf.cpp QTAtom_mdhd.cpp QTAtom_mvhd.cpp QTAtom_stco.cpp QTAtom_stsc.cpp QTAtom_stsd.cpp QTAtom_stss.cpp QTAtom_stsz.cpp QTAtom_stts.cpp QTAtom_tkhd.cpp QTAtom_tref.cpp QTFile.cpp QTFile_FileControlBlock.cpp QTHintTrack.cpp QTRTPFile.cpp QTTrack.cpp ..\RTPMetaInfoLib\RTPMetaInfoPacket.cpp
+         QTAtom.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTAtom_dref.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTAtom_elst.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTAtom_hinf.cpp
+     1>e:\test\easydarwin-master\qtfilelib\qtatom_hinf.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTAtom_mdhd.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTAtom_mvhd.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTAtom_stco.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTAtom_stsc.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTAtom_stsd.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qtatom_stsd.cpp(118): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTAtom_stss.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qtatom_stss.h(63): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTAtom_stsz.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTAtom_stts.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qtatom_stts.cpp(234): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qtatom_stts.cpp(493): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTAtom_tkhd.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTAtom_tref.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTFile.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qtatom_stss.h(63): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qthinttrack.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qtfile.cpp(175): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\test\easydarwin-master\qtfilelib\qtfile.cpp(970): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         QTFile_FileControlBlock.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qtatom_stss.h(63): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qthinttrack.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTHintTrack.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qtatom_stss.h(63): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qthinttrack.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qthinttrack.cpp(505): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qthinttrack.cpp(510): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qthinttrack.cpp(513): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qthinttrack.cpp(527): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qthinttrack.cpp(535): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qthinttrack.cpp(585): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qthinttrack.cpp(1169): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qthinttrack.cpp(1344): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qthinttrack.cpp(1414): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qthinttrack.cpp(1424): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTRTPFile.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qtatom_stss.h(63): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qthinttrack.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qtrtpfile.cpp(112): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qtrtpfile.cpp(250): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\test\easydarwin-master\qtfilelib\qtrtpfile.cpp(573): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qtrtpfile.cpp(664): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qtrtpfile.cpp(1448): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         QTTrack.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(114): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(116): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osfilesource.h(125): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qtatom_stss.h(63): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtfilelib\qttrack.cpp(300): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         RTPMetaInfoPacket.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\stringparser.h(120): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\stringparser.h(124): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\stringparser.h(126): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\stringparser.h(128): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\stringparser.h(183): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\rtpmetainfolib\rtpmetainfopacket.cpp(131): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         Generating Code...
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Debug\QTFileLib.lib" /NOLOGO .\Debug/QTAtom.obj
+         .\Debug/QTAtom_dref.obj
+         .\Debug/QTAtom_elst.obj
+         .\Debug/QTAtom_hinf.obj
+         .\Debug/QTAtom_mdhd.obj
+         .\Debug/QTAtom_mvhd.obj
+         .\Debug/QTAtom_stco.obj
+         .\Debug/QTAtom_stsc.obj
+         .\Debug/QTAtom_stsd.obj
+         .\Debug/QTAtom_stss.obj
+         .\Debug/QTAtom_stsz.obj
+         .\Debug/QTAtom_stts.obj
+         .\Debug/QTAtom_tkhd.obj
+         .\Debug/QTAtom_tref.obj
+         .\Debug/QTFile.obj
+         .\Debug/QTFile_FileControlBlock.obj
+         .\Debug/QTHintTrack.obj
+         .\Debug/QTRTPFile.obj
+         .\Debug/QTTrack.obj
+         .\Debug/RTPMetaInfoPacket.obj
+         QTFileLib.vcxproj -> E:\test\EasyDarwin-master\QTFileLib\.\Debug\QTFileLib.lib
+       BscMake:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/QTFileLib.bsc" .\Debug\QTAtom.sbr .\Debug\QTAtom_dref.sbr .\Debug\QTAtom_elst.sbr .\Debug\QTAtom_hinf.sbr .\Debug\QTAtom_mdhd.sbr .\Debug\QTAtom_mvhd.sbr .\Debug\QTAtom_stco.sbr .\Debug\QTAtom_stsc.sbr .\Debug\QTAtom_stsd.sbr .\Debug\QTAtom_stss.sbr .\Debug\QTAtom_stsz.sbr .\Debug\QTAtom_stts.sbr .\Debug\QTAtom_tkhd.sbr .\Debug\QTAtom_tref.sbr .\Debug\QTFile.sbr .\Debug\QTFile_FileControlBlock.sbr .\Debug\QTHintTrack.sbr .\Debug\QTRTPFile.sbr .\Debug\QTTrack.sbr .\Debug\RTPMetaInfoPacket.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\QTFileLib.unsuccessfulbuild".
+         Touching ".\Debug\QTFileLib.lastbuildstate".
+     1>Done Building Project "E:\test\EasyDarwin-master\QTFileLib\QTFileLib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.66

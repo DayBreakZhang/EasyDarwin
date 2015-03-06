@@ -1,0 +1,262 @@
+﻿Build started 2015/3/5 11:04:25.
+     1>Project "E:\test\EasyDarwin-master\StreamingLoadTool\StreamingLoadTool.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\StreamingLoadTool.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ /I..\CommonUtilitiesLib\ /I..\APICommonCode\ /I..\RTPMetaInfoLib\ /I..\APIStubLib\ /I..\RTSPClientLib\ /I..\PrefsSourceLib\ /I..\RTCPUtilitiesLib\ /ZI /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /FI../WinNTSupport/Win32header.h /analyze- /errorReport:prompt ..\RTSPClientLib\ClientSession.cpp ..\RTSPClientLib\ClientSocket.cpp ..\PrefsSourceLib\FilePrefsSource.cpp ..\OSMemoryLib\OSMemory.cpp ..\RTCPUtilitiesLib\RTCPPacket.cpp ..\RTCPUtilitiesLib\RTCPSRPacket.cpp ..\RTPMetaInfoLib\RTPMetaInfoPacket.cpp ..\RTSPClientLib\RTSPClient.cpp StreamingLoadTool.cpp
+         StreamingLoadTool.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\rtspclientlib\playersimulator.h(34): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>e:\test\easydarwin-master\streamingloadtool\streamingloadtool.cpp(759): warning C4805: '==' : unsafe mix of type 'Bool16' and type 'bool' in operation
+     1>e:\test\easydarwin-master\commonutilitieslib\svector.h(195): warning C4291: 'void *operator new(size_t,void *)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 e:\test\easydarwin-master\commonutilitieslib\osmemory.h(125) : see declaration of 'operator new'
+                 e:\test\easydarwin-master\commonutilitieslib\svector.h(190) : while compiling class template member function 'void SVector<T>::resize(UInt32,const T &)'
+                 with
+                 [
+                     T=PlayerSimulator::TrackInfo
+                 ]
+                 e:\test\easydarwin-master\rtspclientlib\playersimulator.h(357) : see reference to class template instantiation 'SVector<T>' being compiled
+                 with
+                 [
+                     T=PlayerSimulator::TrackInfo
+                 ]
+     1>e:\test\easydarwin-master\commonutilitieslib\svector.h(54): warning C4291: 'void *operator new(size_t,void *)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 e:\test\easydarwin-master\commonutilitieslib\osmemory.h(125) : see declaration of 'operator new'
+                 e:\test\easydarwin-master\commonutilitieslib\svector.h(48) : while compiling class template member function 'SVector<T>::SVector(const SVector<T> &)'
+                 with
+                 [
+                     T=UInt32
+                 ]
+                 e:\test\easydarwin-master\rtspclientlib\playersimulator.h(287) : see reference to class template instantiation 'SVector<T>' being compiled
+                 with
+                 [
+                     T=UInt32
+                 ]
+     1>e:\test\easydarwin-master\commonutilitieslib\svector.h(54): warning C4291: 'void *operator new(size_t,void *)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 e:\test\easydarwin-master\commonutilitieslib\osmemory.h(125) : see declaration of 'operator new'
+                 e:\test\easydarwin-master\commonutilitieslib\svector.h(48) : while compiling class template member function 'SVector<T>::SVector(const SVector<T> &)'
+                 with
+                 [
+                     T=PlayerSimulator::PacketInfo
+                 ]
+                 e:\test\easydarwin-master\rtspclientlib\playersimulator.h(288) : see reference to class template instantiation 'SVector<T>' being compiled
+                 with
+                 [
+                     T=PlayerSimulator::PacketInfo
+                 ]
+     1>e:\test\easydarwin-master\commonutilitieslib\svector.h(211): warning C4291: 'void *operator new(size_t,void *)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 e:\test\easydarwin-master\commonutilitieslib\osmemory.h(125) : see declaration of 'operator new'
+                 e:\test\easydarwin-master\commonutilitieslib\svector.h(207) : while compiling class template member function 'void SVector<T>::reserveImpl(UInt32)'
+                 with
+                 [
+                     T=PlayerSimulator::TrackInfo
+                 ]
+         RTSPClient.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+         RTPMetaInfoPacket.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+         RTCPSRPacket.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+         RTCPPacket.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+         OSMemory.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+         FilePrefsSource.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+         ClientSocket.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+         ClientSession.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\rtspclientlib\playersimulator.h(34): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>e:\test\easydarwin-master\rtspclientlib\clientsession.cpp(106): warning C4355: 'this' : used in base member initializer list
+     1>e:\test\easydarwin-master\rtspclientlib\clientsession.cpp(156): warning C4805: '==' : unsafe mix of type 'bool' and type 'Bool16' in operation
+     1>e:\test\easydarwin-master\rtspclientlib\clientsession.cpp(339): warning C4805: '==' : unsafe mix of type 'bool' and type 'Bool16' in operation
+     1>e:\test\easydarwin-master\commonutilitieslib\svector.h(54): warning C4291: 'void *operator new(size_t,void *)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 e:\test\easydarwin-master\commonutilitieslib\osmemory.h(125) : see declaration of 'operator new'
+                 e:\test\easydarwin-master\commonutilitieslib\svector.h(48) : while compiling class template member function 'SVector<T>::SVector(const SVector<T> &)'
+                 with
+                 [
+                     T=UInt32
+                 ]
+                 e:\test\easydarwin-master\rtspclientlib\playersimulator.h(287) : see reference to class template instantiation 'SVector<T>' being compiled
+                 with
+                 [
+                     T=UInt32
+                 ]
+     1>e:\test\easydarwin-master\commonutilitieslib\svector.h(195): warning C4291: 'void *operator new(size_t,void *)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 e:\test\easydarwin-master\commonutilitieslib\osmemory.h(125) : see declaration of 'operator new'
+                 e:\test\easydarwin-master\commonutilitieslib\svector.h(190) : while compiling class template member function 'void SVector<T>::resize(UInt32,const T &)'
+                 with
+                 [
+                     T=PlayerSimulator::TrackInfo
+                 ]
+                 e:\test\easydarwin-master\rtspclientlib\playersimulator.h(357) : see reference to class template instantiation 'SVector<T>' being compiled
+                 with
+                 [
+                     T=PlayerSimulator::TrackInfo
+                 ]
+     1>e:\test\easydarwin-master\commonutilitieslib\svector.h(195): warning C4291: 'void *operator new(size_t,void *)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 e:\test\easydarwin-master\commonutilitieslib\osmemory.h(125) : see declaration of 'operator new'
+                 e:\test\easydarwin-master\commonutilitieslib\svector.h(190) : while compiling class template member function 'void SVector<T>::resize(UInt32,const T &)'
+                 with
+                 [
+                     T=ClientSession::TrackStats
+                 ]
+                 e:\test\easydarwin-master\rtspclientlib\clientsession.h(310) : see reference to class template instantiation 'SVector<T>' being compiled
+                 with
+                 [
+                     T=ClientSession::TrackStats
+                 ]
+     1>e:\test\easydarwin-master\commonutilitieslib\svector.h(54): warning C4291: 'void *operator new(size_t,void *)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 e:\test\easydarwin-master\commonutilitieslib\osmemory.h(125) : see declaration of 'operator new'
+                 e:\test\easydarwin-master\commonutilitieslib\svector.h(48) : while compiling class template member function 'SVector<T>::SVector(const SVector<T> &)'
+                 with
+                 [
+                     T=PlayerSimulator::PacketInfo
+                 ]
+                 e:\test\easydarwin-master\rtspclientlib\playersimulator.h(288) : see reference to class template instantiation 'SVector<T>' being compiled
+                 with
+                 [
+                     T=PlayerSimulator::PacketInfo
+                 ]
+     1>e:\test\easydarwin-master\commonutilitieslib\svector.h(211): warning C4291: 'void *operator new(size_t,void *)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 e:\test\easydarwin-master\commonutilitieslib\osmemory.h(125) : see declaration of 'operator new'
+                 e:\test\easydarwin-master\commonutilitieslib\svector.h(207) : while compiling class template member function 'void SVector<T>::reserveImpl(UInt32)'
+                 with
+                 [
+                     T=PlayerSimulator::TrackInfo
+                 ]
+     1>e:\test\easydarwin-master\commonutilitieslib\svector.h(211): warning C4291: 'void *operator new(size_t,void *)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 e:\test\easydarwin-master\commonutilitieslib\osmemory.h(125) : see declaration of 'operator new'
+                 e:\test\easydarwin-master\commonutilitieslib\svector.h(207) : while compiling class template member function 'void SVector<T>::reserveImpl(UInt32)'
+                 with
+                 [
+                     T=ClientSession::TrackStats
+                 ]
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\StreamingLoadTool.exe.embed.manifest.res" .\Debug\StreamingLoadTool_manifest.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\test\EasyDarwin-master\StreamingLoadTool\.\Debug\StreamingLoadTool.exe) does not match the Linker's OutputFile property value (E:\test\EasyDarwin-master\WinNTSupport\Debug\StreamingLoadTool.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\WinNTSupport\Debug\StreamingLoadTool.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib ws2_32.lib wsock32.lib winmm.lib libcmtd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcd.lib /MANIFEST /ManifestFile:".\Debug\StreamingLoadTool.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/StreamingLoadTool.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\StreamingLoadTool.lib" /MACHINE:X86 .\Debug\StreamingLoadTool.exe.embed.manifest.res
+         .\Debug/ClientSession.obj
+         .\Debug/ClientSocket.obj
+         .\Debug/FilePrefsSource.obj
+         .\Debug/OSMemory.obj
+         .\Debug/RTCPPacket.obj
+         .\Debug/RTCPSRPacket.obj
+         .\Debug/RTPMetaInfoPacket.obj
+         .\Debug/RTSPClient.obj
+         .\Debug/StreamingLoadTool.obj
+         "E:\test\EasyDarwin-master\APICommonCode\Debug\APICommonCode.lib"
+         "E:\test\EasyDarwin-master\CommonUtilitiesLib\CommonUtilitiesLib.lib"
+         "E:\test\EasyDarwin-master\WinNTSupport\Debug\SafeInternalStdLib.lib"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\StreamingLoadTool.exe.embed.manifest" /manifest .\Debug\StreamingLoadTool.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\StreamingLoadTool.exe.embed.manifest.res" .\Debug\StreamingLoadTool_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\WinNTSupport\Debug\StreamingLoadTool.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib ws2_32.lib wsock32.lib winmm.lib libcmtd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcd.lib /MANIFEST /ManifestFile:".\Debug\StreamingLoadTool.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/StreamingLoadTool.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\StreamingLoadTool.lib" /MACHINE:X86 .\Debug\StreamingLoadTool.exe.embed.manifest.res
+         .\Debug/ClientSession.obj
+         .\Debug/ClientSocket.obj
+         .\Debug/FilePrefsSource.obj
+         .\Debug/OSMemory.obj
+         .\Debug/RTCPPacket.obj
+         .\Debug/RTCPSRPacket.obj
+         .\Debug/RTPMetaInfoPacket.obj
+         .\Debug/RTSPClient.obj
+         .\Debug/StreamingLoadTool.obj
+         "E:\test\EasyDarwin-master\APICommonCode\Debug\APICommonCode.lib"
+         "E:\test\EasyDarwin-master\CommonUtilitiesLib\CommonUtilitiesLib.lib"
+         "E:\test\EasyDarwin-master\WinNTSupport\Debug\SafeInternalStdLib.lib"
+         StreamingLoadTool.vcxproj -> E:\test\EasyDarwin-master\StreamingLoadTool\.\Debug\StreamingLoadTool.exe
+       BscMake:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/StreamingLoadTool.bsc" .\Debug\ClientSession.sbr .\Debug\ClientSocket.sbr .\Debug\FilePrefsSource.sbr .\Debug\OSMemory.sbr .\Debug\RTCPPacket.sbr .\Debug\RTCPSRPacket.sbr .\Debug\RTPMetaInfoPacket.sbr .\Debug\RTSPClient.sbr .\Debug\StreamingLoadTool.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\StreamingLoadTool.unsuccessfulbuild".
+         Touching ".\Debug\StreamingLoadTool.lastbuildstate".
+     1>Done Building Project "E:\test\EasyDarwin-master\StreamingLoadTool\StreamingLoadTool.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.65

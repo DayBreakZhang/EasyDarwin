@@ -1,0 +1,153 @@
+﻿Build started 2015/3/5 11:04:26.
+     1>Project "E:\test\EasyDarwin-master\qtpasswd.tproj\qtpasswd.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\qtpasswd.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../ /I../CommonUtilitiesLib/ /I../OSMemoryLib/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /FI../WinNTSupport/Win32header.h /analyze- /errorReport:prompt ..\OSMemoryLib\OSMemory.cpp QTSSPasswd.cpp
+         QTSSPasswd.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(124): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(212) : see declaration of 'unlink'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(130): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(212) : see declaration of 'unlink'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(161): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(341): warning C4101: 'crpw' : unreferenced local variable
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(430): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(471): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(487): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(543): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(212) : see declaration of 'unlink'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(545): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(212) : see declaration of 'unlink'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(549): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(212) : see declaration of 'unlink'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(553): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(212) : see declaration of 'unlink'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(554): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(212) : see declaration of 'unlink'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(588): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(600): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(616): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(655): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(212) : see declaration of 'unlink'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(656): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(212) : see declaration of 'unlink'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(659): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(212) : see declaration of 'unlink'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(660): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(212) : see declaration of 'unlink'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(679): warning C4996: 'mktemp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mktemp. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(311) : see declaration of 'mktemp'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(813): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(947): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(954): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(978): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(990): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(1050): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(1056): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(1085): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(1093): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(1119): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\test\easydarwin-master\qtpasswd.tproj\qtsspasswd.cpp(1134): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         OSMemory.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\qtpasswd.exe.embed.manifest.res" .\Debug\qtpasswd_manifest.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\test\EasyDarwin-master\qtpasswd.tproj\.\Debug\qtpasswd.exe) does not match the Linker's OutputFile property value (E:\test\EasyDarwin-master\WinNTSupport\Debug\qtpasswd.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\WinNTSupport\Debug\qtpasswd.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib ws2_32.lib wsock32.lib winmm.lib libcmtd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcd.lib /MANIFEST /ManifestFile:".\Debug\qtpasswd.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/qtpasswd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\qtpasswd.lib" /MACHINE:X86 .\Debug\qtpasswd.exe.embed.manifest.res
+         .\Debug/OSMemory.obj
+         .\Debug/QTSSPasswd.obj
+         "E:\test\EasyDarwin-master\CommonUtilitiesLib\CommonUtilitiesLib.lib"
+         "E:\test\EasyDarwin-master\WinNTSupport\Debug\SafeInternalStdLib.lib"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\qtpasswd.exe.embed.manifest" /manifest .\Debug\qtpasswd.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\qtpasswd.exe.embed.manifest.res" .\Debug\qtpasswd_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\WinNTSupport\Debug\qtpasswd.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib ws2_32.lib wsock32.lib winmm.lib libcmtd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcd.lib /MANIFEST /ManifestFile:".\Debug\qtpasswd.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/qtpasswd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\qtpasswd.lib" /MACHINE:X86 .\Debug\qtpasswd.exe.embed.manifest.res
+         .\Debug/OSMemory.obj
+         .\Debug/QTSSPasswd.obj
+         "E:\test\EasyDarwin-master\CommonUtilitiesLib\CommonUtilitiesLib.lib"
+         "E:\test\EasyDarwin-master\WinNTSupport\Debug\SafeInternalStdLib.lib"
+         qtpasswd.vcxproj -> E:\test\EasyDarwin-master\qtpasswd.tproj\.\Debug\qtpasswd.exe
+       BscMake:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/qtpasswd.bsc" .\Debug\OSMemory.sbr .\Debug\QTSSPasswd.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\qtpasswd.unsuccessfulbuild".
+         Touching ".\Debug\qtpasswd.lastbuildstate".
+     1>Done Building Project "E:\test\EasyDarwin-master\qtpasswd.tproj\qtpasswd.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.15

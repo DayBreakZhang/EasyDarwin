@@ -1,0 +1,30 @@
+﻿Build started 2015/3/5 11:03:55.
+     1>Project "E:\test\EasyDarwin-master\APIStubLib\APIStubLib.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\APIStubLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.. /I../CommonUtilitiesLib/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D DSS_USE_API_CALLBACKS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /FI../WinNTSupport/Win32header.h /analyze- /errorReport:prompt QTSS_Private.cpp
+         QTSS_Private.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Debug\APIStubLib.lib" /NOLOGO .\Debug/QTSS_Private.obj
+         APIStubLib.vcxproj -> E:\test\EasyDarwin-master\APIStubLib\.\Debug\APIStubLib.lib
+       BscMake:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/APIStubLib.bsc" .\Debug\QTSS_Private.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\APIStubLib.unsuccessfulbuild".
+         Touching ".\Debug\APIStubLib.lastbuildstate".
+     1>Done Building Project "E:\test\EasyDarwin-master\APIStubLib\APIStubLib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.63

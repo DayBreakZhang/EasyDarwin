@@ -1,0 +1,69 @@
+﻿Build started 2015/3/5 11:04:13.
+     1>Project "E:\test\EasyDarwin-master\SafeStdLib\SafeInternalStdLib.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\SafeInternalStdLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../ /I../APIStubLib/ /I../CommonUtilitiesLib/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /FI../WinNTSupport/Win32header.h /analyze- /errorReport:prompt InternalStdLib.cpp
+         InternalStdLib.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\safestdlib\internalstdlib.cpp(176): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\safestdlib\internalstdlib.cpp(176): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>e:\test\easydarwin-master\safestdlib\internalstdlib.cpp(189): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\safestdlib\internalstdlib.cpp(189): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(86) : see declaration of 'ctime'
+     1>e:\test\easydarwin-master\safestdlib\internalstdlib.cpp(203): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\safestdlib\internalstdlib.cpp(203): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\time.h(153) : see declaration of 'asctime'
+     1>e:\test\easydarwin-master\safestdlib\internalstdlib.cpp(216): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+     1>e:\test\easydarwin-master\safestdlib\internalstdlib.cpp(229): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(E:\test\EasyDarwin-master\SafeStdLib\.\Debug\SafeInternalStdLib.lib) does not match the Library's OutputFile property value (E:\test\EasyDarwin-master\WinNTSupport\Debug\SafeInternalStdLib.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\WinNTSupport\Debug\SafeInternalStdLib.lib" /NOLOGO .\Debug/InternalStdLib.obj
+         SafeInternalStdLib.vcxproj -> E:\test\EasyDarwin-master\SafeStdLib\.\Debug\SafeInternalStdLib.lib
+       BscMake:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/SafeInternalStdLib.bsc" .\Debug\InternalStdLib.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\SafeInternalStdLib.unsuccessfulbuild".
+         Touching ".\Debug\SafeInternalStdLib.lastbuildstate".
+     1>Done Building Project "E:\test\EasyDarwin-master\SafeStdLib\SafeInternalStdLib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.56

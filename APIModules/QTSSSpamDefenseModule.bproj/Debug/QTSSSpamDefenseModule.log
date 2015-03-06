@@ -1,0 +1,144 @@
+﻿Build started 2015/3/5 11:04:16.
+     1>Project "E:\test\EasyDarwin-master\APIModules\QTSSSpamDefenseModule.bproj\QTSSSpamDefenseModule.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\QTSSSpamDefenseModule.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../ /I../../CommonUtilitiesLib/ /I../../APICommonCode /I../../RTPMetaInfoLib/ /I../../APIStubLib/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D QTSSSPAMDEFENSEMODULE_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /FI../../WinNTSupport/Win32header.h /analyze- /errorReport:prompt ..\OSMemory_Modules\OSMemory_Modules.cpp QTSSSpamDefenseModule.cpp
+         QTSSSpamDefenseModule.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\apicommoncode\qtssmoduleutils.h(286): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\apimodules\qtssspamdefensemodule.bproj\qtssspamdefensemodule.cpp(167): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oshashtable.h(53): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+                 e:\test\easydarwin-master\commonutilitieslib\oshashtable.h(50) : while compiling class template member function 'OSHashTable<T,K>::OSHashTable(UInt32)'
+                 with
+                 [
+                     T=IPAddrTableElem,
+                     K=IPAddrTableKey
+                 ]
+                 e:\test\easydarwin-master\apimodules\qtssspamdefensemodule.bproj\qtssspamdefensemodule.cpp(179) : see reference to class template instantiation 'OSHashTable<T,K>' being compiled
+                 with
+                 [
+                     T=IPAddrTableElem,
+                     K=IPAddrTableKey
+                 ]
+     1>e:\test\easydarwin-master\commonutilitieslib\oshashtable.h(69): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+                 e:\test\easydarwin-master\commonutilitieslib\oshashtable.h(68) : while compiling class template member function 'void OSHashTable<T,K>::Add(T *)'
+                 with
+                 [
+                     T=IPAddrTableElem,
+                     K=IPAddrTableKey
+                 ]
+     1>e:\test\easydarwin-master\commonutilitieslib\oshashtable.h(89): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+                 e:\test\easydarwin-master\commonutilitieslib\oshashtable.h(77) : while compiling class template member function 'void OSHashTable<T,K>::Remove(T *)'
+                 with
+                 [
+                     T=IPAddrTableElem,
+                     K=IPAddrTableKey
+                 ]
+         OSMemory_Modules.cpp
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(244): warning C4005: 'ENOTCONN' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(118) : see previous definition of 'ENOTCONN'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(245): warning C4005: 'EADDRINUSE' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(246): warning C4005: 'EINPROGRESS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(247): warning C4005: 'ENOBUFS' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(111) : see previous definition of 'ENOBUFS'
+     1>e:\test\easydarwin-master\commonutilitieslib\osheaders.h(248): warning C4005: 'EADDRNOTAVAIL' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(93) : see previous definition of 'EADDRNOTAVAIL'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(73): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(77): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\strptrlen.h(85): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\osthread.h(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(83): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(97): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\oscond.h(119): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\test\easydarwin-master\commonutilitieslib\osqueue.h(103): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\QTSSSpamDefenseModule.dll.embed.manifest.res" .\Debug\QTSSSpamDefenseModule_manifest.rc 
+       MakeDirsForLink:
+         Creating directory "E:\test\EasyDarwin-master\APIModules\QTSSSpamDefenseModule.bproj\..\..\WinNTSupport\dynmodules_disabled\Debug".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\test\EasyDarwin-master\APIModules\QTSSSpamDefenseModule.bproj\.\Debug\QTSSSpamDefenseModule.dll) does not match the Linker's OutputFile property value (E:\test\EasyDarwin-master\WinNTSupport\dynmodules_disabled\Debug\QTSSSpamDefenseModule.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\WinNTSupport\dynmodules_disabled\Debug\QTSSSpamDefenseModule.dll" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib ws2_32.lib wsock32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcd.lib /MANIFEST /ManifestFile:".\Debug\QTSSSpamDefenseModule.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/QTSSSpamDefenseModule.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug/QTSSSpamDefenseModule.lib" /MACHINE:X86 /DLL .\Debug\QTSSSpamDefenseModule.dll.embed.manifest.res
+         .\Debug/OSMemory_Modules.obj
+         .\Debug/QTSSSpamDefenseModule.obj
+         "E:\test\EasyDarwin-master\APICommonCode\Debug\APICommonCode.lib"
+         "E:\test\EasyDarwin-master\APIStubLib\Debug\APIStubLib.lib"
+         "E:\test\EasyDarwin-master\CommonUtilitiesLib\CommonUtilitiesLib.lib"
+         "E:\test\EasyDarwin-master\WinNTSupport\Debug\SafeDynamicModuleStdLib.lib"
+            Creating library .\Debug/QTSSSpamDefenseModule.lib and object .\Debug/QTSSSpamDefenseModule.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\QTSSSpamDefenseModule.dll.embed.manifest" /manifest .\Debug\QTSSSpamDefenseModule.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\QTSSSpamDefenseModule.dll.embed.manifest.res" .\Debug\QTSSSpamDefenseModule_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\WinNTSupport\dynmodules_disabled\Debug\QTSSSpamDefenseModule.dll" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib ws2_32.lib wsock32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcd.lib /MANIFEST /ManifestFile:".\Debug\QTSSSpamDefenseModule.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/QTSSSpamDefenseModule.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug/QTSSSpamDefenseModule.lib" /MACHINE:X86 /DLL .\Debug\QTSSSpamDefenseModule.dll.embed.manifest.res
+         .\Debug/OSMemory_Modules.obj
+         .\Debug/QTSSSpamDefenseModule.obj
+         "E:\test\EasyDarwin-master\APICommonCode\Debug\APICommonCode.lib"
+         "E:\test\EasyDarwin-master\APIStubLib\Debug\APIStubLib.lib"
+         "E:\test\EasyDarwin-master\CommonUtilitiesLib\CommonUtilitiesLib.lib"
+         "E:\test\EasyDarwin-master\WinNTSupport\Debug\SafeDynamicModuleStdLib.lib"
+            Creating library .\Debug/QTSSSpamDefenseModule.lib and object .\Debug/QTSSSpamDefenseModule.exp
+         QTSSSpamDefenseModule.vcxproj -> E:\test\EasyDarwin-master\APIModules\QTSSSpamDefenseModule.bproj\.\Debug\QTSSSpamDefenseModule.dll
+       BscMake:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/QTSSSpamDefenseModule.bsc" .\Debug\OSMemory_Modules.sbr .\Debug\QTSSSpamDefenseModule.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\QTSSSpamDefenseModule.unsuccessfulbuild".
+         Touching ".\Debug\QTSSSpamDefenseModule.lastbuildstate".
+     1>Done Building Project "E:\test\EasyDarwin-master\APIModules\QTSSSpamDefenseModule.bproj\QTSSSpamDefenseModule.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.50
