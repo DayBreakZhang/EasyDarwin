@@ -8,3 +8,7 @@ support@easydarwin.org
 或者访问 
 
 http://www.easydarwin.org
+
+或者博客
+
+http://blog.csdn.net/xiejiashu
